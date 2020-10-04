@@ -3,7 +3,7 @@ import classes from './Layout.css'
 import Aux from '../../Hoc/Aux';
 
 const Layout = (props) => (
-     <Aux>
+    <Aux>
     <div>Toolbar, SideDrawer, Backdrop</div>
     <main className={classes.Content}>
         {props.children}
